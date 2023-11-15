@@ -57,6 +57,10 @@ body {
     .header {
       padding: 0;
       height: 15rem; } }
+  @media only screen and (max-width: 22.18em) {
+    .header {
+      padding: 0;
+      height: 25rem; } }
   .header .parallax {
     position: fixed;
     background-color: white;
@@ -89,6 +93,10 @@ body {
     .header--responsive {
       padding: 0;
       height: 7rem; } }
+  @media only screen and (max-width: 22.18em) {
+    .header--responsive {
+      padding: 0;
+      height: 14rem; } }
   .header--responsive .parallax--responsive {
     position: fixed;
     background-color: white;
