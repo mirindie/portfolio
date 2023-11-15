@@ -1,0 +1,9 @@
+@keyframes bottomToTop {
+    0% {
+        transform: translateY(400px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

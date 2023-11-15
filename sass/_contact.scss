@@ -1,0 +1,12 @@
+.header--contact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 6rem;
+    flex-grow: 1;
+    animation: 1s ease 0s bottomToTop;
+
+    .parallax--contact {
+        z-index: 0;
+    }
+}

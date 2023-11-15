@@ -1,0 +1,54 @@
+.heading-titles {
+    color: $color-primary;
+    padding-top: 1rem;
+
+}
+
+.heading-namejob {
+    padding-top: 1rem;
+}
+
+.heading-dates {
+    font-weight: 400;
+}
+
+.padding-top-key {
+    padding-top: 1rem;
+}
+
+.ul-style {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a.link-styles {
+    color: $color-primary;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    text-decoration-color: transparent;
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
+    transition: all .3s;
+
+    &:hover {
+        text-decoration-color: #613eff;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+        -webkit-text-decoration-color: #613eff;
+        -moz-text-decoration-color: #613eff;
+    }
+}
+
+.heading-4 {
+    font-size: 1.2rem;
+}
+
+.paragraph-styles {
+    font-size: 1.1rem;
+
+    &--footer {
+        font-size: 1rem;
+    }
+}

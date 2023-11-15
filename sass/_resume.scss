@@ -1,0 +1,19 @@
+.resume {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+    column-gap: 3rem;
+    padding: 6vh 6vw;
+    background-color: $color-whitesmoke;
+    box-shadow: 1px 4px 16px 5px #594e6d29;
+
+    @media only screen and (max-width: $bp-small) {
+        grid-template-columns: auto;
+    }
+
+    .experience {
+        grid-column: 1 / 2;
+    }
+
+
+}

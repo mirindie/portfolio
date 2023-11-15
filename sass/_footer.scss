@@ -1,0 +1,10 @@
+.footer {
+    position: relative;
+    background-color: $color-black-footer;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 6rem;
+
+}
