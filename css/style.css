@@ -57,7 +57,7 @@ body {
     .header {
       padding: 0;
       height: 15rem; } }
-  @media only screen and (max-width: 22.18em) {
+  @media only screen and (max-width: 29em) {
     .header {
       padding: 0;
       height: 25rem; } }
@@ -93,7 +93,7 @@ body {
     .header--responsive {
       padding: 0;
       height: 7rem; } }
-  @media only screen and (max-width: 22.18em) {
+  @media only screen and (max-width: 29em) {
     .header--responsive {
       padding: 0;
       height: 14rem; } }
